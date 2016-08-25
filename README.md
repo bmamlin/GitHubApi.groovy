@@ -4,6 +4,10 @@ A simple Groovy script to provide Groovy access to the GitHub API. I'm not makin
 
 The API object provided by this script will fetch all data requested, even if the data are paged. It will also respect GitHub's rate limits and sleep when necessary to avoid exceding those limits. The personal access token is necessary, since GitHub understandably limits the number of anonymous REST calls allowed.
 
+## Installation
+
+While you could clone this repository, that's not necessary. You can simply copy the contents of the [raw GitHubApi.groovy file](https://raw.githubusercontent.com/bmamlin/GitHubApi.groovy/master/GitHubApi.groovy) into an editor and save it as GitHubApi.groovy wherever you keep your Groovy scripts.
+
 ## Setup
 
 To use this script, you need to have (or create) a personal access token (GitHub Settings > Personal access tokens) and place it into a file named `.github.token` in your home folder (i.e., `~/.github.token`).
